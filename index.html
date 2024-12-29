@@ -1,0 +1,68 @@
+<!-- Page d'accueil de l'université de lomé -->
+ <!DOCTYPE html>
+ <html lang="FR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UL_Page_Acceuil</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <!-- contient le script de l'en-tête -->
+            <span class="menu-icon" onclick="opensidebar()">☰ PAUL</span>
+            <div class="connect">Me connecter▾</div>
+
+        </header>
+        <main>
+            <section class="s1">
+                <h1>Bienvenue</h1><hr/>
+            </section>
+            <section class="s2">
+                <p>Les inscriptions en ligne pour le compte de l'année académique 2024-2025 sont
+                    ouvertes pour la période<br/>
+                    du <b>16 septembre 2024</b> au <b>13 décembre 2024.</b>
+                </p>
+            </section>
+            <!-- définition des cartes -->
+            <section class="s3">
+                <!-- Nouveau bachelier -->
+                <div class="card bleu">
+                    <h4>Nouveau bachelier?</h4>
+                    <button>
+                        <span class="icon"><img src="ent.png"></span>
+                        <div class="text">
+                            <h3>Créer un compte</h3>
+                            <p>Concerne uniquement les nouveaus bacheliers</p>
+                        </div>
+                    </button>
+                </div>
+                <!-- Bac étranger ou antérieur 2011 -->
+                <div class="card orange">
+                    <h4>BAC étranger ou antérieur à 2011?</h4>
+                    <button>
+                        <span class="icon"><img src="ent.png"></span>
+                        <div class="text">
+                            <h3>Saisir les informations</h3>
+                        </div>
+                    </button>
+                </div>
+                <!-- Pour les anciens étudiants -->
+                <div class="card vert">
+                    <h4>Ancien Etudiant?</h4>
+                    <button>
+                        <span class="icon"><img src="ent.png"></span>
+                        <div class="text">
+                            <h3>Saisir les informations</h3>
+                            <p>Concerne les anciens étudiant n'ayant pas de compte</p>
+                        </div>
+                    </button>
+                </div>
+            </section>
+            <section class="s4">
+                <body link="blue" alink="blue" vlink="blue"></body>
+                <a href="guide-utilisateur.pdf" target="_blank"><h3>Télécharger la procédure d'inscription</h3></a>
+            </section>
+        </main>
+    </body>
+ </html>

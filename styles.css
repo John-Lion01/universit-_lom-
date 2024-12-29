@@ -1,0 +1,77 @@
+body{background-color: white; font-family: Times New Roman;}
+/* En-tête */
+header{
+    background-color: rgb(146, 18, 127);
+    margin: 0;
+    padding: 10px 20px;
+    color: white;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+/* icon du menu */
+.menu-icon{
+    cursor: pointer;
+    font-size: 24px;
+}
+
+/* connexion */
+.connect{
+    cursor: pointer;
+    font-size: 20pt;
+    font-weight: bold;
+}
+/* section une */
+.s1{
+    color: rgb(42, 47, 40);
+    font-size: 25pt;
+    text-align: center;
+}
+/* Section 2 */
+.s2{
+    margin: 1%;
+    background-color: rgb(188, 236, 170);
+    padding: 5pt 10pt;
+    p{font-family: Times New Roman;}
+    p{font-size: 16pt;}
+    p{font-weight: 500;}
+}
+/* Section 3 */
+.s3{
+    display: flex; /*allignement horizontal*/
+    flex-wrap: wrap; /*s'étale sur pls lignes si néccessaire*/
+    justify-content:space-around; /*Occupe proportionnelement toute l'espace sur la ligne*/
+}
+.card.bleu h4{color: blue;}
+.card.orange h4{color: darkorange;}
+.card.vert h4{color: rgb(22, 222, 162);}
+
+.card button{
+    display: flex;
+    background:none;
+    border-radius: 8px;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+    transition:  0.3s;
+}
+.card button:hover{background: rgba(159, 155, 155, 0.1);}
+.card .icon{
+    font-size: 24px;
+    margin-right: 15px;
+}
+.card .text {
+    h3{font-size: x-large; margin: 0;}
+    p{margin: 5px ; font-size: 14px; }
+}
+.card.card.bleu button{background-color: rgb(42, 127, 196);}
+.card.orange button{background-color: rgb(194, 135, 24);}
+.card.card.vert button{background-color: rgb(21, 221, 211);}
+
+.s4{
+    text-align: center;
+    cursor: pointer;
+}
